@@ -1,0 +1,137 @@
+Project 1 — Artificial Intelligence
+
+# Project: Rule-Based AI Chatbot
+ 
+## Author Name- Shristi Rani
+
+## Internship - Decodelab internship
+
+1. Project Overview
+
+This project is a simple Rule-Based AI Chatbot developed using Python.
+
+The chatbot responds to predefined user inputs using if-else decision-making logic. It continuously accepts messages from the user until an exit command is entered.
+
+This project focuses on fundamental Artificial Intelligence concepts such as control flow, decision-making, and basic human-computer interaction.
+
+2. Objective
+
+The main objective of this project is to create a chatbot that:
+
+- Handles greetings.
+- Responds to predefined questions.
+- Handles exit commands.
+- Uses "if-elif-else" logic.
+- Runs continuously using a loop.
+- Demonstrates basic rule-based AI concepts.
+
+3. Technologies Used
+
+- Python 3.x
+- Conditional statements ("if", "elif", "else")
+- "while" loop
+- String methods
+- Command-line interface
+
+4. Project Structure
+
+Rule-Based-AI-Chatbot/
+│
+├── main.py
+└── README.md
+
+5. How It Works
+
+The chatbot takes input from the user and converts it to lowercase.
+
+It then checks the input against predefined rules.
+
+For example:
+
+User: hello
+Bot: Hello! How can I help you?
+
+If the user enters an exit command such as "bye", "exit", or "quit", the chatbot ends the program.
+
+For an unknown input, the chatbot provides a default response.
+
+6. Example Conversation
+
+===================================
+       🤖 Rule-Based AI Chatbot
+===================================
+Type 'bye', 'exit', or 'quit' to end the chat.
+
+You: hello
+Bot: Hello! How can I help you? 😊
+
+You: what is your name
+Bot: I am a simple Rule-Based AI Chatbot.
+
+You: how are you
+Bot: I'm doing great! Thanks for asking. 😄
+
+You: help
+Bot: You can greet me, ask my name, ask how I am, or say bye.
+
+You: bye
+Bot: Goodbye! Have a great day! 👋
+
+7. Installation
+
+Step 1: Install Python
+
+Install Python 3.x on your computer.
+
+Step 2: Download or clone the project
+
+Place "main.py" in your project folder.
+
+Step 3: Run the program
+
+Open Command Prompt or Terminal inside the project folder and run:
+
+python main.py
+
+If your system uses "python3", run:
+
+python3 main.py
+
+8. Key Concepts Demonstrated
+
+Control Flow
+
+The program uses conditional statements to determine the appropriate response.
+
+Decision-Making Logic
+
+Different user inputs trigger different predefined responses.
+
+Continuous Loop
+
+A "while" loop allows the chatbot to continue interacting with the user until an exit command is entered.
+
+Rule-Based AI
+
+The chatbot does not learn from data. Instead, it follows explicitly programmed rules to generate responses.
+
+9. Future Improvements
+
+The chatbot can be improved by:
+
+- Adding more questions and responses.
+- Adding more conversational rules.
+- Creating nested conditions.
+- Adding a unique chatbot personality.
+- Connecting the chatbot to a graphical user interface.
+- Adding more natural-language patterns.
+
+10. Conclusion
+
+This project demonstrates the fundamentals of a rule-based Artificial Intelligence system.
+
+By using Python control flow, conditional statements, and continuous input handling, the chatbot can simulate a basic human-computer conversation.
+
+The project provides a foundation for understanding how decision-making logic can be used to create simple intelligent interfaces.
+
+Project Status: Completed
